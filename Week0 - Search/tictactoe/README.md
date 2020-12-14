@@ -2,8 +2,8 @@
 This is an unbeatable tic tac toe AI.
 
 <img src="./images/tie.png" alt="Demo"/>
-<img src="./images/x win.png" alt="Demo"/>
-<img src="./images/o win.png" alt="Demo"/>
+<img src="./images/X win.png" alt="Demo"/>
+<img src="./images/O win.png" alt="Demo"/>
 
 To play:
 ```
