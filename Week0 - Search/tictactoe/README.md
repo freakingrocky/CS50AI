@@ -6,7 +6,7 @@ This is an unbeatable tic tac toe AI.
 <img src="./images/O win.png" alt="Demo"/>
 
 To play:
-```
+```cmd
 git clone https://github.com/freakingrocky/CS50AI.git
 cd "CS50AI/Week0 - Search/tictactoe"
 python runner.py

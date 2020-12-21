@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:description"
+        content="Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, and software engineering. Languages include C, Python, and SQL plus HTML, CSS, and JavaScript. Problem sets inspired by the arts, humanities, social sciences, and sciences. Course culminates in a final project.">
+
+    <meta property="og:image" content="">
+    <meta property="og:title" content="CS50">
+    <link href="favicon.ico?1602652477" rel="icon">
+
+    <!-- http://getbootstrap.com/docs/4.5/getting-started/introduction/ -->
+    <script src="assets/jquery/dist/jquery.min.js?1602652477"></script>
+    <script src="assets/popper.js/dist/umd/popper.min.js?1602652477"></script>
+    <script src="assets/bootstrap/dist/js/bootstrap.min.js?1602652477"></script>
+
+    <!-- https://bootstrap-table.com/docs/getting-started/introduction/ -->
+    <link href="assets/bootstrap-table/dist/bootstrap-table.min.css?1602652477" rel="stylesheet">
+    <script src="assets/bootstrap-table/dist/bootstrap-table.min.js?1602652477"></script>
+    <script src="assets/bootstrap-table/dist/extensions/mobile/bootstrap-table-mobile.min.js?1602652477"></script>
+
+    <!-- https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use -->
+    <link href="assets/@fortawesome/fontawesome-free/css/all.min.css?1602652477" rel="stylesheet">
+
+    <!-- https://momentjs.com/, https://momentjs.com/timezone/ -->
+    <script src="assets/moment.min.js?1602652477"></script>
+    <script src="assets/moment-timezone-with-data.min.js?1602652477"></script>
+    <script src="assets/luxon.min.js?1602652477"></script>
+
+    <!-- https://www.algolia.com/doc/guides/building-search-ui/installation/js/ -->
+    <script src="assets/algoliasearchLite.min.js?1602652477"></script>
+    <script src="assets/instantsearch.production.min.js?1602652477"></script>
+
+    <link href="assets/page.css?1602652477" rel="stylesheet">
+    <script src="assets/jekyll-theme-cs50.js?1602652477"></script>
+
+    <title>CS50</title>
+</head>
+
+<body>
+
+
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <aside class="col-md">
+
+                <header>
+                    <h1 data-id="this-is-cs50"><a href=".">This is CS50</a></h1>
+
+                    <p><a href="https://www.college.harvard.edu/">Harvard College</a><br>
+                        Fall 2020</p>
+                </header>
+
+                <button class="btn btn-link d-block pl-0 pt-0" data-search="" data-target="#search" data-toggle="modal"
+                    type="button">
+                    <i class="fas fa-search pr-2"></i>Search
+                </button>
+
+                <button aria-controls="nav" aria-expanded="false" class="btn btn-sm collapsed d-md-none"
+                    data-target="aside > nav" data-toggle="collapse">
+                    Menu
+                </button>
+
+                <nav class="collapse d-md-block" id="nav">
+                    <hr>
+
+                    <ul>
+                        <li data-marker="*"><a href="weeks/0/">Week 0</a> Scratch</li>
+                        <li data-marker="*"><a href="weeks/1/">Week 1</a> C</li>
+                        <li data-marker="*"><a href="weeks/2/">Week 2</a> Arrays</li>
+                        <li data-marker="*"><a href="weeks/3/">Week 3</a> Algorithms</li>
+                        <li data-marker="*"><a href="weeks/4/">Week 4</a> Memory</li>
+                        <li data-marker="*"><a href="weeks/5/">Week 5</a> Data Structures</li>
+                        <li data-marker="*"><a href="weeks/6/">Week 6</a> Python</li>
+                    </ul>
+
+                    <hr>
+
+                    <ul>
+                        <li data-marker="*"><a href="https://vault.cs50.io/6027a62f-c1c6-42db-8b79-25c3e09eb10c">Ed</a>
+                        </li>
+                    </ul>
+
+                    <hr>
+
+                    <ul>
+                        <li data-marker="*"><a href="#announcements">Announcements</a></li>
+                        <li data-marker="*"><a href="faqs/">FAQs</a></li>
+                        <li data-marker="*"><a href="meals/">Meals</a></li>
+                        <li data-marker="*"><a href="orientation/">Orientation</a></li>
+                        <li data-marker="*"><a href="sections/">Sections</a></li>
+                        <li data-marker="*"><a href="staff/">Staff</a></li>
+                        <li data-marker="*"><a href="syllabus/">Syllabus</a></li>
+                        <li data-marker="*"><a href="tutorials/">Tutorials</a></li>
+                    </ul>
+
+                    <hr>
+
+                    <ul class="small">
+                        <li data-marker="*"><a href="https://ide.cs50.io/">CS50 IDE</a></li>
+                        <li data-marker="*"><a href="https://man.cs50.io/">Manual Pages</a></li>
+                        <li data-marker="*"><a href="https://scratch.mit.edu/">Scratch</a></li>
+                        <li data-marker="*"><a href="https://cs50.statuspage.io/">Status Page</a></li>
+                        <li data-marker="*"><a href="https://cs50.readthedocs.io/style/c/">Style Guide</a></li>
+                    </ul>
+
+                    <hr>
+
+                    <p style="font-size: initial">With <a href="thanks/">thanks</a> to CS50’s alumni and friends</p>
+                </nav>
+
+                <footer></footer>
+
+            </aside>
+
+            <main class="col-md markdown-body">
+
+                <div class="alert" data-alert="success" role="alert">
+                    <p>This is CS50 at Harvard College. Looking for <a href="https://cs50.edx.org/">CS50 on edX</a>? Or
+                        for <a href="https://cs50.harvard.edu/x/">CS50’s own OpenCourseWare</a>? Or for <a
+                            href="https://cs50.harvard.edu/extension/">CSCI E-50 at Harvard Extension School</a>?</p>
+                </div>
+
+                <h1 id="announcements">Announcements</h1>
+
+                <ul>
+                    <li data-marker="*"><a href="weeks/6/">Week 6</a>’s lecture is now available!</li>
+                    <li data-marker="*"><a href="quizzes/6/">Quiz 6</a> is due by <span
+                            data-local="2020-10-13T11:59:00-04:00"></span>.</li>
+                    <li data-marker="*"><a href="labs/6/">Lab 6</a> is due by <span
+                            data-local="2020-10-15T23:59:00-04:00"></span>.</li>
+                    <li data-marker="*"><a href="psets/6/">Problem Set 6</a> is due by <span
+                            data-local="2020-10-18T23:59:00-04:00"></span>.</li>
+                    <li data-marker="*">You’re welcome to continue challenging the <a
+                            href="https://speller.cs50.net/cs50/problems/2020/fall/challenges/speller">Big Board</a>,
+                        even after submitting the pset itself! See <a href="psets/5/speller/#big-board">Problem Set
+                            5</a> for instructions!</li>
+                    <li data-marker="*">Here are CS50’s <a href="https://cs50.readthedocs.io/zoom/">recommended settings
+                            for Zoom</a> if you’d like to fine-tune your setup.</li>
+                    <li data-marker="*">Like to attend a <a href="meals/">CS50 Meal</a> and meet some new people?</li>
+                </ul>
+
+                <h2 id="identity-theft">Identity Theft</h2>
+
+                <div class="border embed-responsive embed-responsive-16by9" data-video="">
+                    <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen="" class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/2H8ZAIxuyaw?modestbranding=0&amp;rel=0&amp;showinfo=0"></iframe>
+                </div>
+
+
+
+            </main>
+
+        </div>
+
+    </div>
+
+    <div aria-hidden="true" aria-labelledby="searchTitle" class="markdown-body modal" id="search" role="dialog"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="pr-3 w-100" id="searchbox"></div>
+                    <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+                </div>
+                <div class="modal-body">
+                    <div id="hits"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        // Before shwoing searchbox
+        $('#search').on('show.bs.modal', function (e) {
+
+            // Client
+            const searchClient = algoliasearch('5RYPGI69HZ', '53d709e59d833870a6886f6fcf0b0bfe');
+            const search = instantsearch({
+                indexName: 'cs50-2020-fall-college',
+                searchClient: searchClient,
+                searchFunction: function (helper) { // https://www.algolia.com/doc/guides/building-search-ui/going-further/conditional-display/js/#handling-empty-queries
+                    const hits = $('#hits');
+                    if (helper.state.query === '') {
+                        hits.hide();
+                        return;
+                    }
+                    helper.search();
+                    hits.show();
+                }
+            });
+
+            // searchBox
+            // https://www.algolia.com/doc/api-reference/widgets/search-box/js/
+            search.addWidget(
+                instantsearch.widgets.searchBox({
+                    container: '#searchbox',
+                    cssClasses: {
+                        input: 'form-control'
+                    },
+                    placeholder: 'Search',
+                    showLoadingIndicator: false,
+                    showReset: false,
+                    showSubmit: false
+                })
+            );
+
+            // hits
+            // https://www.algolia.com/doc/api-reference/widgets/hits/js/
+            search.addWidget(
+                instantsearch.widgets.hits({
+                    container: '#hits',
+                    templates: {
+                        item: function (hit) {
+
+                            // url
+                            if (window.baseurl) {
+                                var url = window.baseurl + hit.url;
+                            }
+                            else {
+                                var url = hit.url;
+                            }
+                            if (hit.anchor) {
+                                url += '#' + hit.anchor;
+                            }
+
+                            // title
+                            if (hit._highlightResult && hit._highlightResult.headings) {
+                                var title = hit._highlightResult.headings[hit._highlightResult.headings.length - 1].value;
+                            }
+                            else if (hit._highlightResult && hit._highlightResult.title) {
+                                var title = hit._highlightResult.title.value;
+                            }
+                            else if (hit.headings) {
+                                var title = hit.headings[hit.headings.length - 1].value;
+                            }
+                            else if (hit.title) {
+                                var title = hit.title;
+                            }
+                            else {
+                                var title = url;
+                            }
+
+                            // content
+                            if (hit._highlightResult && hit._highlightResult.content) {
+                                var content = hit._highlightResult.content.value;
+                            }
+                            else if (hit._highlightResult && hit._highlightResult.title) {
+                                var content = hit._highlightResult.title.value;
+                            }
+                            else {
+                                var content = hit.excerpt_text;
+                            }
+
+                            // Template for hit
+                            return '<h2 class="font-weight-bold h3 mb-0">' +
+                                '<a href="' + url + '">' +
+                                title +
+                                '</a>' +
+                                '</h2>' +
+                                '<p class="mb-0">' +
+                                '<a class="text-muted" href="' + url + '">' +
+                                url +
+                                '</a>' +
+                                '</p>' +
+                                '<p>' +
+                                content +
+                                '</p>';
+                        }
+                    }
+                })
+            );
+
+            // poweredBy
+            search.addWidget(
+                instantsearch.widgets.poweredBy({
+                    container: '#search .modal-footer'
+                })
+            );
+
+            // Let user start searching
+            search.start();
+
+            // Resize form
+            $(window).trigger('resize');
+        });
+
+        // After showing searchbox
+        $('#search').on('shown.bs.modal', function (e) {
+            $('#searchbox input[type=search]').focus();
+        });
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
